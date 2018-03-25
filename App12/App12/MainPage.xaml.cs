@@ -1,0 +1,24 @@
+﻿using Plugin.TextToSpeech;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Forms;
+
+namespace App12
+{
+	public partial class MainPage : ContentPage
+	{
+		public MainPage()
+		{
+			InitializeComponent();
+		}
+        private void ClickedButton(object Sender, EventArgs args)
+        {
+            var text = Enter.Text;
+
+            CrossTextToSpeech.Current.Speak(text);
+        }
+    }
+}
