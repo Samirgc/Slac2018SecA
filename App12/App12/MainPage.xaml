@@ -5,9 +5,7 @@
              x:Class="App12.MainPage"
              BackgroundImage="Allrounder">
 
-	<!--<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />-->
+
 
     <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
         <Entry x:Name="Enter" TextColor="White"/>
